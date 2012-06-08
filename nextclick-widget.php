@@ -4,7 +4,7 @@ Plugin Name: Nextclick Widget
 Plugin URI: http://iworks.pl/
 Description: Generates a widget to the nextclick.pl
 Author: Marcin Pietrzak
-Version: trunk
+Version: 0.1
 Author URI: http://iworks.pl
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

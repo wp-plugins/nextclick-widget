@@ -4,7 +4,7 @@ Donate link: http://iworks.pl/
 Tags: widget, nextclick, ads
 Requires at least: 2.8
 Tested up to: 3.3.2
-Stable tag: trunk
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
