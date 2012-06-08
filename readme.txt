@@ -1,6 +1,6 @@
 === Nextclick Widget ===
 Contributors: iworks
-Donate link: http://iworks.pl/
+Donate link: http://iworks.pl/donate/nextclick.php
 Tags: widget, nextclick, ads
 Requires at least: 2.8
 Tested up to: 3.3.2
