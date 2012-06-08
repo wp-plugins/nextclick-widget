@@ -37,7 +37,7 @@ class Nextclick_Widget extends WP_Widget {
     public function __construct() {
         parent::__construct(
             'nextclick_widget', // Base ID
-            'Nextclick_Widget', // Name
+            'Nextclick Widget', // Name
             array( 'description' => __( 'Nextclick', 'nextclick_widget' ), ) // Args
         );
     }
@@ -53,7 +53,16 @@ class Nextclick_Widget extends WP_Widget {
     public function widget( $args, $instance ) {
         extract( $args );
         $key = apply_filters( 'nextclick_key', $instance['key'] );
+        /**
+         * empty key
+         */
         if ( empty( $key ) ) {
+            return;
+        }
+        /**
+         * not a single content
+         */
+        if ( !is_singular() ) {
             return;
         }
         echo $before_widget;
